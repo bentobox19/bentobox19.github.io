@@ -17,7 +17,6 @@
 
 ### Discovered critical bug on Ethereum 2.0 Specification
 
-* Ethereum Foundation · Mar 2020
+* [Ethereum Foundation · Mar 2020](https://blog.ethereum.org/2020/03/31/eth2-quick-update-no-10/)
 * Integer overflow on validator rewards computation.
 * Awarded USD$ 10,000.
-* https://blog.ethereum.org/2020/03/31/eth2-quick-update-no-10/
