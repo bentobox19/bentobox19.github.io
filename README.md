@@ -4,10 +4,10 @@
 
 * [Menpo - DeFi Incident Database in STIX 2.1](https://github.com/metamask/menpo)
 
-## Write ups
+## CTF
 
-* [Ethernaut solved in Foundry](https://github.com/bentobox19/ethernaut-foundry/blob/main/writeups.md)
-* [Damn Vulnerable DeFi solved in Foundry](https://github.com/bentobox19/damn-vulnerable-defi-foundry/blob/main/writeups.md) (WIP)
+* Writeup - [Ethernaut solved in Foundry](https://github.com/bentobox19/ethernaut-foundry/blob/main/writeups.md)
+* Writeup - [Damn Vulnerable DeFi solved in Foundry](https://github.com/bentobox19/damn-vulnerable-defi-foundry/blob/main/writeups.md) (WIP)
 
 ## Twitter
 
