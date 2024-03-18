@@ -8,7 +8,7 @@
 
 ## Warpcast
 
-* [2FA and TOTP Thread](https://warpcast.com/bentobox19/0xd271f97f)
+* [2FA and TOTP Thread](https://warpcast.com/bentobox19/0xcc84dbae)
 
 ## Awards
 
