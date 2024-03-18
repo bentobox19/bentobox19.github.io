@@ -1,9 +1,5 @@
 # bentobox19.eth
 
-## Projects
-
-* [Menpo - DeFi Incident Database in STIX 2.1](https://github.com/metamask/menpo)
-
 ## CTF
 
 * Writeup - [Ethernaut solved in Foundry](https://github.com/bentobox19/ethernaut-foundry/blob/main/writeups.md)
@@ -13,11 +9,6 @@
 ## Twitter
 
 * [2FA and TOTP](https://twitter.com/bentobox19_/status/1538733636828205056)
-
-## Videos
-
-* [Presentation of Menpo at DeFi Security Summit 2 - Paris 2023](https://www.youtube.com/watch?v=D4qRiKpj1go)
-* [Presentation of INFURA at DevCon 2 - Shanghai 2016](https://www.youtube.com/watch?v=4efkhhLRmjs)
 
 ## Awards
 
