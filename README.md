@@ -6,9 +6,23 @@
 * Writeup - [Damn Vulnerable DeFi solved in Foundry](https://github.com/bentobox19/damn-vulnerable-defi-foundry/blob/main/writeups.md) (WIP)
 * Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
 
-## Warpcast
+## Publications
+
+### Blogs
+
+T.B.D
+
+### GitHub Gists
+
+* [Arguments in favor of a standard for incident reporting and DeFi attack taxonomy](https://gist.github.com/bentobox19/7b7247fccc22e22e6867fc2df6211226)
+
+### Warpcast
 
 * [2FA and TOTP Thread](https://warpcast.com/bentobox19/0xcc84dbae)
+
+### Other
+
+* [Menpo - A DeFi Incident Database - Research whitepaper](https://docs.google.com/document/d/1bmbzHYu9s5DTgSinJXHdFWjBWla43jV1G6SnX3X8OB4/edit#heading=h.hfqnt8tzve7p)
 
 ## Awards
 
