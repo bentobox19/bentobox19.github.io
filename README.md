@@ -10,7 +10,7 @@
 
 ## Publications
 
-### Blogs
+### Blog Posts
 
 T.B.D
 
