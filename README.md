@@ -12,7 +12,7 @@
 
 ### Blog Posts
 
-T.B.D
+* [Enabling a Collaborative Collective to Improve Security in Web3](https://consensys.io/blog/enabling-collaborative-collective-improve-security-web3)
 
 ### GitHub Gists
 
