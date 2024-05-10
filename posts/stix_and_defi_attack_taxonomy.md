@@ -12,7 +12,9 @@ Drawing inspiration from scholarly work such as [Zhou et al. 2022] it is possibl
 
 The framework developed by [Zhou et al. 2022] can be regarded as a superset of the relevant work done in DeFi security taxonomies. Therefore, it will be utilized in this review to structure the organization of attack vectors and provide non-exhaustive examples within the DeFi ecosystem.
 
-<img width="600" alt="Screenshot 2024-04-18 at 23 24 38" src="https://gist.github.com/assets/85324266/ef5cdaf9-ddac-4cc6-a015-9cd490af6b27">
+<p style="text-align: center;">
+  <img width="600" alt="Screenshot 2024-04-18 at 23 24 38" src="https://gist.github.com/assets/85324266/ef5cdaf9-ddac-4cc6-a015-9cd490af6b27">
+</p>
 
 1. Network Layer (NET): The Network Layer of the DeFi Reference Frame consists of the Network Communication Infrastructure, Blockchain and Peer-to-Peer (P2P) Networks, and Front-running as a Service (FaaS). The role of this layer is to enable communication among other system layers.
 2. Blockchain Consensus Layer (CON): The Consensus Layer describes the underlying blockchain and consists of a Consensus Mechanism (which enables nodes to reach agreement on a single state), Nodes, and their Operation Protocol (miners, validators, or ordinary nodes responsible for propagation).
@@ -47,11 +49,13 @@ The following extensions to the standard are proposed:
 
 ## STIX Implementation Examples
 
-<img width="600" alt="Screenshot 2024-04-18 at 23 39 09" src="https://gist.github.com/assets/85324266/1dfcebba-c926-47bf-a7a6-681c32ec9c67">
-<img width="600" alt="Screenshot 2024-04-18 at 23 39 17" src="https://gist.github.com/assets/85324266/550bdf5b-e8e3-445b-b387-4846b4abe192">
-<img width="600" alt="Screenshot 2024-04-18 at 23 39 26" src="https://gist.github.com/assets/85324266/44957eea-68c1-401c-9a7c-f38b9dac8852">
-<img width="600" alt="Screenshot 2024-04-18 at 23 39 35" src="https://gist.github.com/assets/85324266/12cb8a5e-3a5d-4758-925f-40dfc72f9cc0">
-<img width="600" alt="Screenshot 2024-04-18 at 23 39 54" src="https://gist.github.com/assets/85324266/b37886ca-73e8-4dc4-8c0a-1bfa3d7a3218">
+<p style="text-align: center;">
+  <img width="600" alt="Screenshot 2024-04-18 at 23 39 09" src="https://gist.github.com/assets/85324266/1dfcebba-c926-47bf-a7a6-681c32ec9c67">
+  <img width="600" alt="Screenshot 2024-04-18 at 23 39 17" src="https://gist.github.com/assets/85324266/550bdf5b-e8e3-445b-b387-4846b4abe192">
+  <img width="600" alt="Screenshot 2024-04-18 at 23 39 26" src="https://gist.github.com/assets/85324266/44957eea-68c1-401c-9a7c-f38b9dac8852">
+  <img width="600" alt="Screenshot 2024-04-18 at 23 39 35" src="https://gist.github.com/assets/85324266/12cb8a5e-3a5d-4758-925f-40dfc72f9cc0">
+  <img width="600" alt="Screenshot 2024-04-18 at 23 39 54" src="https://gist.github.com/assets/85324266/b37886ca-73e8-4dc4-8c0a-1bfa3d7a3218">
+</p>
 
 ## References
 
