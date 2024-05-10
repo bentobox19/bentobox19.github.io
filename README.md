@@ -2,12 +2,6 @@
 
 * [bentobox19.eth](https://app.ens.domains/bentobox19.eth)
 
-## CTF
-
-* Writeup - [Ethernaut solved in Foundry](https://github.com/bentobox19/ethernaut-foundry/blob/main/writeups.md)
-* Writeup - [Damn Vulnerable DeFi solved in Foundry](https://github.com/bentobox19/damn-vulnerable-defi-foundry/blob/main/writeups.md) (WIP)
-* Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
-
 ## Publications
 
 ### Blog Posts
@@ -25,6 +19,13 @@
 ### Other
 
 * [Menpo - A DeFi Incident Database - Research whitepaper](https://docs.google.com/document/d/1bmbzHYu9s5DTgSinJXHdFWjBWla43jV1G6SnX3X8OB4/edit#heading=h.hfqnt8tzve7p)
+
+## CTF
+
+* Writeup - [Ethernaut solved in Foundry](https://github.com/bentobox19/ethernaut-foundry/blob/main/writeups.md)
+* Writeup - [Damn Vulnerable DeFi solved in Foundry](https://github.com/bentobox19/damn-vulnerable-defi-foundry/blob/main/writeups.md) (WIP)
+* Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
+
 
 ## Awards
 
