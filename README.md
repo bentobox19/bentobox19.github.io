@@ -10,7 +10,7 @@
 
 ### GitHub Gists
 
-* [Arguments in favor of a standard for incident reporting and DeFi attack taxonomy](https://gist.github.com/bentobox19/7b7247fccc22e22e6867fc2df6211226)
+* [Arguments in favor of a standard for incident reporting and DeFi attack taxonomy](https://bentobox19.github.io/posts/stix_and_defi_attack_taxonomy)
 
 ### Warpcast
 
@@ -32,4 +32,4 @@
 
 * [Ethereum Foundation · Mar 2020](https://blog.ethereum.org/2020/03/31/eth2-quick-update-no-10/)
 * Integer overflow on validator rewards computation.
-* Awarded USD$ 10,000.
+* Awarded USD$ 10,000.s
