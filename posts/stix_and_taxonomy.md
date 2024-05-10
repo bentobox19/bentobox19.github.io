@@ -73,4 +73,4 @@ The following extensions to the standard are proposed:
 ## Contact
 
 * Warpcast: [@bentobox19](https://warpcast.com/bentobox19)
-* Twitter: [@bentobox19_](https://twitter.com/bentobox19_)
+* Twitter: [@bentobox19\_](https://twitter.com/bentobox19_)
