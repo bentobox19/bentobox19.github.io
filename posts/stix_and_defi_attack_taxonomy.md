@@ -22,11 +22,13 @@ The framework developed by [Zhou et al. 2022] can be regarded as a superset of t
 
 Each of these layers categorize incident causes and distinguish types:
 
-<img width="600" alt="Screenshot 2024-04-18 at 23 28 07" src="https://gist.github.com/assets/85324266/f58891dc-7125-4bfe-88bf-55e1bfc5baf3">
-<img width="600" alt="Screenshot 2024-04-18 at 23 28 17" src="https://gist.github.com/assets/85324266/401d86f6-4b59-49b2-bdd4-5bde53df3aa9">
-<img width="600" alt="Screenshot 2024-04-18 at 23 28 30" src="https://gist.github.com/assets/85324266/e9299dd0-642c-420d-893b-ec27e65f10e6">
-<img width="600" alt="Screenshot 2024-04-18 at 23 28 40" src="https://gist.github.com/assets/85324266/796bff6b-5c15-40f7-9cc2-1da0f2563d5d">
-<img width="600" alt="Screenshot 2024-04-18 at 23 28 50" src="https://gist.github.com/assets/85324266/04f1e0a3-a2de-40ed-9011-17a83253e493">
+<p style="text-align: center;">
+  <img width="600" src="https://gist.github.com/assets/85324266/f58891dc-7125-4bfe-88bf-55e1bfc5baf3">
+  <img width="600" src="https://gist.github.com/assets/85324266/401d86f6-4b59-49b2-bdd4-5bde53df3aa9">
+  <img width="600" src="https://gist.github.com/assets/85324266/e9299dd0-642c-420d-893b-ec27e65f10e6">
+  <img width="600" src="https://gist.github.com/assets/85324266/796bff6b-5c15-40f7-9cc2-1da0f2563d5d">
+  <img width="600" src="https://gist.github.com/assets/85324266/04f1e0a3-a2de-40ed-9011-17a83253e493">
+</p>
 
 ## Extending STIX for incident reporting and DeFi Attack Taxonomy
 
