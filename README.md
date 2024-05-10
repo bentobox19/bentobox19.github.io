@@ -7,9 +7,6 @@
 ### Blog Posts
 
 * [Enabling a Collaborative Collective to Improve Security in Web3](https://consensys.io/blog/enabling-collaborative-collective-improve-security-web3)
-
-### GitHub Gists
-
 * [Arguments in favor of a standard for incident reporting and DeFi attack taxonomy](https://bentobox19.github.io/posts/stix_and_defi_attack_taxonomy)
 
 ### Warpcast
