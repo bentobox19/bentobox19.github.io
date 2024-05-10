@@ -1,5 +1,7 @@
 # Arguments in favor of a standard for incident reporting and DeFi attack taxonomy
 
+2024 Apr 19
+
 ## Overview
 
 To systematically address and mitigate risks, it is recommended to incorporate a standard for incident reporting and develop a comprehensive taxonomy of attacks specific to DeFi systems.
