@@ -54,13 +54,13 @@ The following extensions to the standard are proposed:
 ## References
 
 * [Clancy et al. 2022]
-  * Clancy, C., Norman, M., & Wijesinghe, S. (2022). Securing Web3 and Winning the Battle for the Future of the Internet. MITRE. https://www.mitre.org/news-insights/publication/securing-web3-and-winning-battle-future-internet
+  * Clancy, C., Norman, M., & Wijesinghe, S. (2022). Securing Web3 and Winning the Battle for the Future of the Internet. MITRE. [https://www.mitre.org/news-insights/publication/securing-web3-and-winning-battle-future-internet](https://www.mitre.org/news-insights/publication/securing-web3-and-winning-battle-future-internet)
 
 * [STIX]
-  * Barnum, S. (2012). Standardizing Cyber Threat Intelligence Information with the Structured Threat Information Expression (STIX). Mitre Corporation, 11, 1–22. https://www.mitre.org/sites/default/files/publications/stix.pdf
+  * Barnum, S. (2012). Standardizing Cyber Threat Intelligence Information with the Structured Threat Information Expression (STIX). Mitre Corporation, 11, 1–22. [https://www.mitre.org/sites/default/files/publications/stix.pdf](https://www.mitre.org/sites/default/files/publications/stix.pdf)
 
 * [Zhou et al. 2022]
-  * Zhou, L., Xiong, X., Ernstberger, J., Chaliasos, S., Wang, Z., Wang, Y., Qin, K., Wattenhofer, R., Song, D., & Gervais, A. (2022). SoK: Decentralized Finance (DeFi) Attacks. http://arxiv.org/abs/2208.13035
+  * Zhou, L., Xiong, X., Ernstberger, J., Chaliasos, S., Wang, Z., Wang, Y., Qin, K., Wattenhofer, R., Song, D., & Gervais, A. (2022). SoK: Decentralized Finance (DeFi) Attacks. [http://arxiv.org/abs/2208.13035](https://www.mitre.org/sites/default/files/publications/stix.pdf)
 
 ## Further Reading
 
