@@ -122,7 +122,7 @@ The Utility Token has several key functions:
 
 - For Consumers: Used to purchase API calls from the AVS.
 - For Providers: Used to stake in the AVS and collect revenue.
-- For Operators and Investors:** Utilized to collect rewards.
+- For Operators and Investors: Utilized to collect rewards.
 ```
 
 The introduction of a new utility token is crucial for **facilitating transactions within the Elastic Security AVS**. This token will be utilized by various participants, each playing a vital role in the network's functionality and growth.
