@@ -31,6 +31,8 @@
 * Integer overflow on validator rewards computation.
 * Awarded USD$ 10,000.s
 
-## ENS
+## Links
 
-* [bentobox19.eth](https://app.ens.domains/bentobox19.eth)
+* ENS: [bentobox19.eth](https://app.ens.domains/bentobox19.eth)
+* Warpcast: [@bentobox19](https://warpcast.com/bentobox19)
+* Twitter: [@bentobox19\_](https://twitter.com/bentobox19_)
