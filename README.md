@@ -7,6 +7,7 @@
 * [Rewards and Penalties on Ethereum 2.0 (Phase 0)](https://consensyscodefi.medium.com/rewards-and-penalties-on-ethereum-2-0-phase-0-consensys-codefi-50d9bc5e98e5)
 * [Enabling a Collaborative Collective to Improve Security in Web3](https://consensys.io/blog/enabling-collaborative-collective-improve-security-web3)
 * [Arguments in favor of a standard for incident reporting and DeFi attack taxonomy](https://bentobox19.github.io/posts/stix_and_defi_attack_taxonomy)
+* [Elastic Security AVS - Early View of Components and Economics](https://bentobox19.github.io/posts/elastic_security_avs_early_view)
 
 ### Warpcast
 
