@@ -29,7 +29,7 @@
 
 * [Ethereum Foundation · Mar 2020](https://blog.ethereum.org/2020/03/31/eth2-quick-update-no-10/)
 * Integer overflow on validator rewards computation.
-* Awarded USD$ 10,000.s
+* Awarded USD$ 10,000.
 
 ## Links
 
