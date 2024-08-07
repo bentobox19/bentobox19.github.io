@@ -19,8 +19,8 @@
 
 ## CTF
 
-* Writeup - [Ethernaut solved in Foundry](https://github.com/bentobox19/ethernaut-foundry/blob/main/writeups.md) (WIP)
-* Writeup - [Damn Vulnerable DeFi solved in Foundry](https://github.com/bentobox19/damn-vulnerable-defi/blob/main/writeups.md) (WIP)
+* Writeup - [Ethernaut](https://github.com/bentobox19/ethernaut-foundry/blob/main/writeups.md) (WIP)
+* Writeup - [Damn Vulnerable DeFi](https://github.com/bentobox19/damn-vulnerable-defi/blob/master/writeups.md) (WIP)
 * Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
 
 ## Awards
