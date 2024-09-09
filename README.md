@@ -19,8 +19,8 @@
 
 ## CTF
 
-* Write Ups - [Ethernaut](https://github.com/bentobox19/ethernaut-foundry/blob/main/writeups.md) (WIP)
-* Write Ups - [Damn Vulnerable DeFi](https://github.com/bentobox19/damn-vulnerable-defi/blob/master/writeups.md) (WIP)
+* [Ethernaut](https://github.com/bentobox19/ethernaut-foundry)
+* [Damn Vulnerable DeFi](https://github.com/bentobox19/damn-vulnerable-defi)
 * Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
 
 ## Awards
