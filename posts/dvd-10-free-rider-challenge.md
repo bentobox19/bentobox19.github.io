@@ -1,4 +1,4 @@
-# Free Rider
+# Damn Vulnerable DeFi #10 - Free Rider - Solution
 
 ## Summary
 
