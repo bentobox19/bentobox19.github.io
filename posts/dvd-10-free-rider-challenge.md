@@ -34,11 +34,11 @@ Although the `buyMany()` function is protected against reentrancy, the `_buyOne(
 
 Let’s illustrate this with a simple table:
 
-| id  | priceToPay | msg.value | sold? | commentary                              |
-|-----|------------|-----------|-------|-----------------------------------------|
-| 0   | 15 ETH     | 15 ETH    | yes   | OK                                      |
-| 1   | 15 ETH     | 15 ETH    | yes   | Wait! Why? You should have discounted it before |
-| 2   | 15 ETH     | 15 ETH    | yes   | ...                                     |
+| id  | priceToPay | total  | msg.value | sold? | commentary                              |
+|-----|------------|--------|-----------|-------|-----------------------------------------|
+| 0   | 15 ETH     | 15 ETH | 15 ETH    | yes   | OK                                      |
+| 1   | 15 ETH     | 30 ETH | 15 ETH    | yes   | Wait! Why? You should have discounted it before |
+| 2   | 15 ETH     | 45 ETH | 15 ETH    | yes   | Still using the same `msg.value`, causing improper validation |
 
 
 This behavior occurs due to the following code:
