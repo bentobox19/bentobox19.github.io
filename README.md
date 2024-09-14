@@ -4,6 +4,7 @@
 
 ### Blog Posts
 
+* [Damn Vulnerable DeFi #10 - Free Rider - Solution](https://bentobox19.github.io/posts/dvd-10-free-rider-challenge)
 * [Elastic Security AVS - Early View of Components and Economics](https://bentobox19.github.io/posts/elastic_security_avs_early_view)
 * [Arguments in favor of a standard for incident reporting and DeFi attack taxonomy](https://bentobox19.github.io/posts/stix_and_defi_attack_taxonomy)
 * [Enabling a Collaborative Collective to Improve Security in Web3](https://consensys.io/blog/enabling-collaborative-collective-improve-security-web3)
