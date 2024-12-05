@@ -70,15 +70,6 @@ The following extensions to the standard are proposed:
 * [Zhou et al. 2022]
   * Zhou, L., Xiong, X., Ernstberger, J., Chaliasos, S., Wang, Z., Wang, Y., Qin, K., Wattenhofer, R., Song, D., & Gervais, A. (2022). SoK: Decentralized Finance (DeFi) Attacks. [http://arxiv.org/abs/2208.13035](https://www.mitre.org/sites/default/files/publications/stix.pdf)
 
-## Further Reading
-
-* [The contents of this very document in a Google Doc](https://docs.google.com/document/d/15GjAvsyS1ErgMtZpNA4VD1h8GafU70X_hILq92GO2Tw/edit)
-* Menpo is a [MetaMask](https://metamask.io/) project that started with the idea of recording DeFi incidents using STIX:
-  * [Menpo research whitepaper](https://docs.google.com/document/d/1bmbzHYu9s5DTgSinJXHdFWjBWla43jV1G6SnX3X8OB4/edit)
-  * [Menpo presentation at DeFi Security Summit](https://www.youtube.com/watch?v=D4qRiKpj1go)
-  * [Small concept of DeFi incidents using python's stix2](https://github.com/MetaMask/menpo)
-
 ## Contact
 
-* Warpcast: [@bentobox19](https://warpcast.com/bentobox19)
 * Twitter: [@bentobox19\_](https://twitter.com/bentobox19_)
