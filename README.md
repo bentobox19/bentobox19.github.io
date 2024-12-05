@@ -10,14 +10,6 @@
 * [Enabling a Collaborative Collective to Improve Security in Web3](https://consensys.io/blog/enabling-collaborative-collective-improve-security-web3)
 * [Rewards and Penalties on Ethereum 2.0 (Phase 0)](https://consensyscodefi.medium.com/rewards-and-penalties-on-ethereum-2-0-phase-0-consensys-codefi-50d9bc5e98e5)
 
-### Warpcast
-
-* [2FA and TOTP Thread](https://warpcast.com/bentobox19/0xcc84dbae)
-
-### Other
-
-* [Menpo - A DeFi Incident Database - Research whitepaper](https://docs.google.com/document/d/1bmbzHYu9s5DTgSinJXHdFWjBWla43jV1G6SnX3X8OB4/edit#heading=h.hfqnt8tzve7p)
-
 ## CTF
 
 * [Ethernaut](https://github.com/bentobox19/ethernaut-foundry)
@@ -35,5 +27,4 @@
 ## Links
 
 * ENS: [bentobox19.eth](https://app.ens.domains/bentobox19.eth)
-* Warpcast: [@bentobox19](https://warpcast.com/bentobox19)
 * Twitter: [@bentobox19\_](https://twitter.com/bentobox19_)
