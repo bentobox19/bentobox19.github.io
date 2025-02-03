@@ -4,6 +4,7 @@
 
 ### Blog Posts
 
+* [Defense in Depth Applied to Multisignature Schemes](https://bentobox19.github.io/posts/defense-in-depth-applied-to-multisig-schemes)
 * [Damn Vulnerable DeFi #10 - Free Rider - Solution](https://bentobox19.github.io/posts/dvd-10-free-rider-challenge)
 * [Elastic Security AVS - Early View of Components and Economics](https://bentobox19.github.io/posts/elastic-security-avs-early-view)
 * [Arguments in favor of a standard for incident reporting and DeFi attack taxonomy](https://bentobox19.github.io/posts/stix-and-defi-attack-taxonomy)
