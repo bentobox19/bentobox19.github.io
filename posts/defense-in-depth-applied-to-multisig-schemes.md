@@ -106,8 +106,8 @@ Threat actors are becoming more sophisticated, using advanced techniques to comp
 ### Additional measures
 
 * Use hardware wallets for multisig key storage.
-* Operate critical systems on dedicated, isolated devices. [@_iphelix](https://newsletter.blockthreat.io/p/blockthreat-week-42-2024) suggests "_Dedicated hosts for all critical administrative actions. A cheap $200 Chromebook is sufficient. The key is 'dedicated'. So no browsing, tweeting, checking emails or job applicant reviews._"
-* Quoting [@_iphelix](https://newsletter.blockthreat.io/p/blockthreat-week-23-2024), "_You will not go bankrupt from buying a laptop to prevent losing private keys when a contractor decides to pirate games on their shared dev box_"
+* Operate critical systems on dedicated, isolated devices. [`@_iphelix`](https://newsletter.blockthreat.io/p/blockthreat-week-42-2024) suggests "_Dedicated hosts for all critical administrative actions. A cheap $200 Chromebook is sufficient. The key is 'dedicated'. So no browsing, tweeting, checking emails or job applicant reviews._"
+* Quoting [`@_iphelix`](https://newsletter.blockthreat.io/p/blockthreat-week-23-2024), "_You will not go bankrupt from buying a laptop to prevent losing private keys when a contractor decides to pirate games on their shared dev box_"
 
 ### Trade-offs & Challenges
 
