@@ -15,7 +15,7 @@
 ## CTF
 
 * Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
-* [Ethernaut](https://github.com/bentobox19/ethernaut-foundry)
+* [Ethernaut](https://github.com/bentobox19/ethernaut)
 * [Damn Vulnerable DeFi](https://github.com/bentobox19/damn-vulnerable-defi)
 
 ## Awards
