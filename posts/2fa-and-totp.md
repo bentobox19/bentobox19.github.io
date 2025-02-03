@@ -20,7 +20,7 @@ To protect it from prying eyes, both you and the service follow these steps inde
 4. Send the digits, and the service compares them with its own calculation.
 
 <p style="text-align: center;">
-  <img width="600" alt="Elastic Security AVS" src="/docs/assets/img/2fa-and-top-01.png">
+  <img width="600" src="/docs/assets/img/2fa-and-top-01.png">
 </p>
 
 To summarize:
@@ -47,7 +47,7 @@ To verify your identity, both you and the service must perform a computation eac
 In other words, your service stores this secret in a database, just like it does with your password. 🤔
 
 <p style="text-align: center;">
-  <img width="600" alt="Elastic Security AVS" src="/docs/assets/img/2fa-and-top-02.png">
+  <img width="600" src="/docs/assets/img/2fa-and-top-02.png">
 </p>
 
 ### Security Considerations
