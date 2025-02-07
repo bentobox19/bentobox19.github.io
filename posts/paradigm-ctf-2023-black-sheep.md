@@ -117,12 +117,10 @@ The function `withdraw(bytes32,uint8,bytes32,bytes32)` maps to the `WITHDRAW()` 
 ## Exploit Construction
 
 1. Deploy an Attack Contract:
-
   - The `receive()` function should revert when `msg.value == 0x12` to ensure `CALL` returns `0x0`.
   - Otherwise, it should succeed to collect the funds.
 
 2. Trigger the Vulnerability:
-
   - Call `withdraw()` with either:
     - A valid signature from any address.
     - Or the tuple `(0x00, 27, 0x00, 0x00)` which results in a non-zero response from `ecrecover`.
