@@ -1,4 +1,4 @@
-# Paradigm CTF 2023 - Black Sheep
+# Paradigm CTF 2023 - Black Sheep - Solution
 
 <!-- MarkdownTOC levels="1,2,3" autolink="true" -->
 

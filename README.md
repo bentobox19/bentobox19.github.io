@@ -4,6 +4,7 @@
 
 ### Blog Posts
 
+* [Paradigm CTF 2023 - Black Sheep - Solution](https://bentobox19.github.io/posts/paradigm-ctf-2023-black-sheep)
 * [Defense in Depth Applied to Multisignature Schemes](https://bentobox19.github.io/posts/defense-in-depth-applied-to-multisig-schemes)
 * [Damn Vulnerable DeFi #10 - Free Rider - Solution](https://bentobox19.github.io/posts/dvd-10-free-rider-challenge)
 * [Elastic Security AVS - Early View of Components and Economics](https://bentobox19.github.io/posts/elastic-security-avs-early-view)
@@ -15,8 +16,9 @@
 ## CTF
 
 * Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
-* [Ethernaut](https://github.com/bentobox19/ethernaut)
+* [Paradigm CTF](https://github.com/bentobox19/paradigm-ctf/)
 * [Damn Vulnerable DeFi](https://github.com/bentobox19/damn-vulnerable-defi)
+* [Ethernaut](https://github.com/bentobox19/ethernaut)
 
 ## Awards
 
