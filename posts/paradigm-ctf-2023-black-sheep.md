@@ -21,7 +21,7 @@ In this article we'll discuss the solution to the challenge from the Paradigm CT
 
 ## The Contract
 
-```asm
+```applescript
 /* Interface */
 #define function withdraw(bytes32,uint8,bytes32,bytes32) payable returns ()
 
