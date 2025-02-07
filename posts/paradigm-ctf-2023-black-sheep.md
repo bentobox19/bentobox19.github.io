@@ -175,5 +175,5 @@ and reduces the risk of common attack vectors.
 
 ## Repositories
 
-* https://github.com/bentobox19/paradigm-ctf/
-* https://github.com/paradigmxyz/paradigm-ctf-2023
+* [https://github.com/bentobox19/paradigm-ctf](https://github.com/bentobox19/paradigm-ctf)
+* [https://github.com/paradigmxyz/paradigm-ctf-2023](https://github.com/paradigmxyz/paradigm-ctf-2023)
