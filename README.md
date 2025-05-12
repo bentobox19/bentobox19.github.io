@@ -4,6 +4,7 @@
 
 ### Blog Posts
 
+* [EROS.EXE](https://bentobox19.github.io/posts/eros-exe.md)
 * [Paradigm CTF 2023 - Black Sheep - Solution](https://bentobox19.github.io/posts/paradigm-ctf-2023-black-sheep)
 * [Defense in Depth Applied to Multisignature Schemes](https://bentobox19.github.io/posts/defense-in-depth-applied-to-multisig-schemes)
 * [Damn Vulnerable DeFi #10 - Free Rider - Solution](https://bentobox19.github.io/posts/dvd-10-free-rider-challenge)
