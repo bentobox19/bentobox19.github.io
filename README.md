@@ -30,5 +30,4 @@
 
 ## Links
 
-* ENS: [bentobox19.eth](https://app.ens.domains/bentobox19.eth)
 * Twitter: [@bentobox19\_](https://twitter.com/bentobox19_)
