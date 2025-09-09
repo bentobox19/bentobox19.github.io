@@ -30,7 +30,7 @@
 
 ## Projects
 
-* [Web3 Address Reconnnaisance Tool](https://github.com/bentobox19/web3-address-recon)
+* [Web3 Address Reconnaissance Tool](https://github.com/bentobox19/web3-address-recon)
 
 ## Links
 
