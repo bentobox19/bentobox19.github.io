@@ -28,6 +28,10 @@
 * Integer overflow on validator rewards computation.
 * Awarded USD$ 10,000.
 
+## Projects
+
+* [Web3 Address Reconnnaisance Tool](https://github.com/bentobox19/web3-address-recon)
+
 ## Links
 
 * Twitter: [@bentobox19\_](https://twitter.com/bentobox19_)
