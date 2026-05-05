@@ -38,7 +38,3 @@
 ### Web3 CTF Leaderboard
 
 * Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
-
-## Social Networks
-
-* Twitter: [@bentobox19\_](https://twitter.com/bentobox19_)
