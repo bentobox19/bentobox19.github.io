@@ -21,15 +21,3 @@
 * [Paradigm CTF](https://github.com/bentobox19/paradigm-ctf/)
 * [Damn Vulnerable DeFi](https://github.com/bentobox19/damn-vulnerable-defi)
 * [Ethernaut](https://github.com/bentobox19/ethernaut)
-
-## Notable Achievements
-
-### Discovered critical bug on Ethereum 2.0 Specification
-
-* [Ethereum Foundation · Mar 2020](https://blog.ethereum.org/2020/03/31/eth2-quick-update-no-10/)
-* Integer overflow on validator rewards computation.
-* Awarded USD$ 10,000.
-
-### Web3 CTF Leaderboard
-
-* Leaderboard at [ONLYPWNER](https://onlypwner.xyz/leaderboard)
