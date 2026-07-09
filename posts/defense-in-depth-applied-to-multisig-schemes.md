@@ -1,4 +1,7 @@
-# Defense in Depth Applied to Multisignature Schemes
+---
+title: Defense in Depth Applied to Multisignature Schemes
+---
+
 _Timelocks and Circuit Breakers_
 
 2025 Feb 03

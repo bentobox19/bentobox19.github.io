@@ -1,4 +1,6 @@
-# Elastic Security AVS - Early View of Components and Economics
+---
+title: Elastic Security AVS - Early View of Components and Economics
+---
 
 2024 Aug 02
 

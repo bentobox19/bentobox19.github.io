@@ -1,4 +1,6 @@
-# Damn Vulnerable DeFi #10 - Free Rider - Solution
+---
+title: Damn Vulnerable DeFi #10 - Free Rider - Solution
+---
 
 ## Summary
 

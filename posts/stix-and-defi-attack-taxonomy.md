@@ -1,4 +1,6 @@
-# Arguments in favor of a standard for incident reporting and DeFi attack taxonomy
+---
+title: Arguments in favor of a standard for incident reporting and DeFi attack taxonomy
+---
 
 2024 Apr 19
 

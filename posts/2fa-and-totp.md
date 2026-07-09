@@ -1,4 +1,6 @@
-# Let's Talk About 2FA and TOTP
+---
+title: Let's Talk About 2FA and TOTP
+---
 
 ## Overview
 

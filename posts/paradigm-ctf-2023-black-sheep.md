@@ -2,10 +2,6 @@
 title: Paradigm CTF 2023 - Black Sheep - Solution
 ---
 
-# Paradigm CTF 2023 - Black Sheep - Solution
-
-<!-- MarkdownTOC levels="1,2,3" autolink="true" -->
-
 - [Introduction](#introduction)
 - [The Contract](#the-contract)
 - [Contract Analysis](#contract-analysis)
