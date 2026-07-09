@@ -1,0 +1,118 @@
+:root{
+  --paper:#f7f4ee;
+  --paper-2:#efeae0;
+  --ink:#211e19;
+  --ink-soft:#544f46;
+  --ink-faint:#938b7e;
+  --amber:#b1520f;
+  --amber-soft:#d97a2c;
+  --rule:#e0d9cb;
+  --code-bg:#211d18;
+  --code-ink:#e8e2d4;
+  --sel:#f7d9b8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--sel)}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+a{color:var(--amber);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s}
+a:hover{border-color:var(--amber)}
+
+/* ---------- Index ---------- */
+header.masthead{padding:58px 0 30px;border-bottom:1px solid var(--rule)}
+h1.name{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.02em;font-size:34px;margin:0}
+.handle{font-family:"JetBrains Mono",monospace;font-size:13.5px;color:var(--ink-faint);margin-top:8px}
+.handle a{color:var(--ink-soft)}
+.handle a:hover{color:var(--amber);border-color:var(--amber)}
+.index-section{margin-top:40px}
+.index-section h2{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin:0 0 4px}
+.index-section h3{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:14px;letter-spacing:.02em;color:var(--ink-faint);margin:22px 0 8px;text-transform:uppercase}
+.index-list{list-style:none;margin:0;padding:0}
+.index-list li{padding:9px 0;border-bottom:1px solid var(--rule);line-height:1.45}
+.index-list li:last-child{border-bottom:none}
+.index-list li a{color:var(--ink);border:none}
+.index-list li a:hover{color:var(--amber)}
+.ext{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-faint);margin-left:6px}
+
+/* ---------- Post ---------- */
+.post .back{font-family:"JetBrains Mono",monospace;font-size:13px;margin:34px 0 0}
+.post .back a{color:var(--ink-faint);border:none}
+.post .back a:hover{color:var(--amber)}
+h1.post-title{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.02em;font-size:34px;line-height:1.12;margin:16px 0 6px}
+.post-meta{font-family:"JetBrains Mono",monospace;font-size:13px;color:var(--ink-faint);margin:0 0 12px}
+.post-body{padding-bottom:60px}
+.post-body h2{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:26px;letter-spacing:-.01em;margin:40px 0 10px;padding-top:8px;border-top:1px solid var(--rule)}
+.post-body h3{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:21px;margin:30px 0 8px}
+.post-body h4{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:17px;margin:24px 0 6px}
+.post-body p{margin:0 0 18px;color:var(--ink-soft)}
+.post-body ul,.post-body ol{color:var(--ink-soft);padding-left:24px;margin:0 0 18px}
+.post-body li{margin:5px 0}
+.post-body li>ul,.post-body li>ol{margin:6px 0}
+.post-body blockquote{margin:20px 0;padding:2px 18px;border-left:3px solid var(--amber-soft);color:var(--ink-soft);background:var(--paper-2)}
+.post-body img{max-width:100%;height:auto;border-radius:8px;margin:8px 0;border:1px solid var(--rule)}
+.post-body hr{border:none;border-top:1px solid var(--rule);margin:34px 0}
+.post-body table{border-collapse:collapse;width:100%;margin:20px 0;font-size:15px}
+.post-body th,.post-body td{border:1px solid var(--rule);padding:8px 12px;text-align:left}
+.post-body th{background:var(--paper-2);font-family:"Space Grotesk",sans-serif}
+
+/* inline code */
+.post-body code{font-family:"JetBrains Mono",monospace;font-size:.86em;background:var(--paper-2);border:1px solid var(--rule);border-radius:4px;padding:1px 6px;color:var(--amber)}
+
+/* ---------- Code fences ----------
+   kramdown+GFM wraps EVERY fence in .language-XXX.highlighter-rouge > div.highlight.
+   Untagged ``` fences get language-plaintext -> render as a light callout box.
+   Tagged fences (```solidity, ```huff, ```python ...) -> dark terminal block. */
+
+/* base: dark terminal for tagged blocks */
+.post-body div.highlight{
+  position:relative;margin:24px 0;border-radius:10px;overflow:hidden;
+  background:var(--code-bg);border:1px solid #000a;
+  box-shadow:0 6px 22px rgba(31,28,24,.12);
+}
+.post-body div.highlight pre{
+  margin:0;background:var(--code-bg);color:var(--code-ink);
+  font-family:"JetBrains Mono",monospace;font-size:14px;line-height:1.6;
+  padding:16px 18px;overflow-x:auto;border:none;
+}
+.post-body div.highlight pre.highlight{background:var(--code-bg)}
+.post-body div.highlight code{background:none;border:none;padding:0;color:inherit;font-size:14px}
+.copy-btn{position:absolute;top:8px;right:8px;background:#00000040;border:1px solid #ffffff26;color:#cabfae;font-family:"JetBrains Mono",monospace;font-size:11px;padding:3px 9px;border-radius:5px;cursor:pointer;z-index:2}
+.copy-btn:hover{border-color:var(--amber-soft);color:var(--amber-soft)}
+
+/* Rouge dark token colors */
+.highlight .c,.highlight .c1,.highlight .cm,.highlight .cs,.highlight .cd{color:#7a7264;font-style:italic}
+.highlight .k,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr,.highlight .kt,.highlight .kc{color:#e0b04a}
+.highlight .s,.highlight .s1,.highlight .s2,.highlight .se,.highlight .sb,.highlight .sd,.highlight .sh{color:#a3c98a}
+.highlight .nf,.highlight .fm{color:#7fb0d6}
+.highlight .nc,.highlight .nn,.highlight .no{color:#c58fd6}
+.highlight .mi,.highlight .mf,.highlight .m,.highlight .mh,.highlight .mo,.highlight .mb{color:#e08a5c}
+.highlight .nb,.highlight .bp{color:#7fb0d6}
+.highlight .na,.highlight .nv,.highlight .vg,.highlight .vi{color:#e8e2d4}
+.highlight .o,.highlight .ow,.highlight .p{color:#c9beac}
+.highlight .n,.highlight .nx{color:#e8e2d4}
+.highlight .gd{color:#e06c5b}.highlight .gi{color:#7fb069}.highlight .err{color:#e8e2d4}
+
+/* override: untagged (plaintext) fences -> light callout, no button target */
+.post-body .language-plaintext.highlighter-rouge>div.highlight{
+  background:var(--paper-2);border:1px solid var(--rule);border-left:3px solid var(--amber-soft);
+  border-radius:8px;box-shadow:none;
+}
+.post-body .language-plaintext.highlighter-rouge div.highlight pre,
+.post-body .language-plaintext.highlighter-rouge pre.highlight{
+  background:transparent;color:var(--ink-soft);
+  font-family:"Source Serif 4",Georgia,serif;font-size:16px;line-height:1.55;
+  padding:14px 18px;white-space:pre-wrap;
+}
+.post-body .language-plaintext.highlighter-rouge code{
+  color:var(--ink-soft);font-family:"Source Serif 4",Georgia,serif;font-size:16px;
+}
+
+footer{border-top:1px solid var(--rule);padding:22px 0 40px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ink-faint)}
+
+@media(max-width:520px){h1.name,h1.post-title{font-size:28px}body{font-size:17px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
