@@ -23,21 +23,17 @@ body{
 a{color:var(--amber);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s}
 a:hover{border-color:var(--amber)}
 
-/* ---------- Index ---------- */
-header.masthead{padding:58px 0 30px;border-bottom:1px solid var(--rule)}
-h1.name{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.02em;font-size:34px;margin:0}
-.handle{font-family:"JetBrains Mono",monospace;font-size:13.5px;color:var(--ink-faint);margin-top:8px}
-.handle a{color:var(--ink-soft)}
-.handle a:hover{color:var(--amber);border-color:var(--amber)}
-.index-section{margin-top:40px}
-.index-section h2{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin:0 0 4px}
-.index-section h3{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:14px;letter-spacing:.02em;color:var(--ink-faint);margin:22px 0 8px;text-transform:uppercase}
-.index-list{list-style:none;margin:0;padding:0}
-.index-list li{padding:9px 0;border-bottom:1px solid var(--rule);line-height:1.45}
-.index-list li:last-child{border-bottom:none}
-.index-list li a{color:var(--ink);border:none}
-.index-list li a:hover{color:var(--amber)}
-.ext{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-faint);margin-left:6px}
+/* ---------- Home (rendered from README.md) ---------- */
+.home-body{padding-top:52px}
+.home-body h1{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.02em;font-size:38px;margin:0 0 2px;line-height:1.08}
+/* the "@bentobox19" line sits as its own paragraph right after the h1 */
+.home-body h1 + p{font-family:"JetBrains Mono",monospace;font-size:14px;color:var(--ink-faint);margin:0 0 4px}
+.home-body h2{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin:34px 0 10px}
+.home-body ul{list-style:none;margin:22px 0 0;padding:0;border-top:1px solid var(--rule)}
+.home-body li{padding:11px 2px;border-bottom:1px solid var(--rule);line-height:1.45;color:var(--ink)}
+.home-body li a{color:var(--ink);border:none}
+.home-body li a:hover{color:var(--amber)}
+.home-body p{color:var(--ink-soft)}
 
 /* ---------- Post ---------- */
 .post .back{font-family:"JetBrains Mono",monospace;font-size:13px;margin:34px 0 0}
