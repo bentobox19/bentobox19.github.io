@@ -171,7 +171,6 @@ accepted to maintain the contract's security posture.
 Incorporating these best practices helps build more secure smart contracts
 and reduces the risk of common attack vectors.
 
-## Repositories
+## References
 
-* [https://github.com/bentobox19/paradigm-ctf](https://github.com/bentobox19/paradigm-ctf)
 * [https://github.com/paradigmxyz/paradigm-ctf-2023](https://github.com/paradigmxyz/paradigm-ctf-2023)
