@@ -1,25 +1,13 @@
 ---
 title: Paradigm CTF 2023 - Black Sheep - Solution
+date: 2025-02-07
 ---
 
-- [Introduction](#introduction)
-- [The Contract](#the-contract)
-- [Contract Analysis](#contract-analysis)
-  - [1. The `withdraw` Function](#1-the-withdraw-function)
-  - [2. Identifying the Vulnerability](#2-identifying-the-vulnerability)
-- [Exploit Construction](#exploit-construction)
-- [Generating a Valid Signature](#generating-a-valid-signature)
-- [Exploit Code](#exploit-code)
-- [Conclusion](#conclusion)
-- [Repositories](#repositories)
-
-<!-- /MarkdownTOC -->
-
-## Introduction
+## 1. Introduction
 
 In this article we'll discuss the solution to the challenge from the Paradigm CTF 2023 called "Black Sheep." The contract is written in Huff, a low-level language designed for Ethereum Virtual Machine (EVM) development. As someone passionate about low-level EVM security research, this was an exciting opportunity to dive deep into Huff.
 
-## The Contract
+## 2. The Contract
 
 ```applescript
 /* Interface */
@@ -96,16 +84,16 @@ In this article we'll discuss the solution to the challenge from the Paradigm CT
 }
 ```
 
-## Contract Analysis
+## 3. Contract Analysis
 
-### 1. The `withdraw` Function
+### 3.1 The `withdraw` Function
 
 The function `withdraw(bytes32,uint8,bytes32,bytes32)` maps to the `WITHDRAW()` macro. It relies on two sub-macros:
 
 - **`CHECKVALUE()`**: Verifies `msg.value` and reverts if it's more than `0x10` wei. If valid, it doubles the amount and sends it back.
 - **`CHECKSIG()`**: Calls the precompiled contract `ecrecover` (at address `0x1`) to verify the signature against a specific address.
 
-### 2. Identifying the Vulnerability
+### 3.2 Identifying the Vulnerability
 
 - **Signature Validation Issue:** The contract allows any valid signature, even from addresses other than the intended signer (`0xd8dA6Bf26964AF9D7eed9e03e53415D37AA96044`).
 - **Redundant `ISZERO` Usage:** The use of `ISZERO` twice doesn't add value; it leaves the stack unchanged. This quirk is not critical for the exploit and may be distractive.
@@ -114,7 +102,7 @@ The function `withdraw(bytes32,uint8,bytes32,bytes32)` maps to the `WITHDRAW()` 
   This behavior influences the control flow, as `JUMPI` will rely on whatever
   happens to be on top of the stack.
 
-## Exploit Construction
+## 4. Exploit Construction
 
 1. Deploy an Attack Contract:
   - The `receive()` function should revert when `msg.value == 0x12` to ensure `CALL` returns `0x0`.
@@ -125,7 +113,7 @@ The function `withdraw(bytes32,uint8,bytes32,bytes32)` maps to the `WITHDRAW()` 
     - A valid signature from any address.
     - Or the tuple `(0x00, 27, 0x00, 0x00)` which results in a non-zero response from `ecrecover`.
 
-## Generating a Valid Signature
+## 5. Generating a Valid Signature
 
 We can use `cast` to create an address and generate a valid signature.
 
@@ -133,7 +121,7 @@ We can use `cast` to create an address and generate a valid signature.
   <img width="600" src="/docs/assets/img/black-sheep-01.png">
 </p>
 
-## Exploit Code
+## 6. Exploit Code
 
 ```solidity
 function testExploit() public {
@@ -153,7 +141,7 @@ receive() external payable {
 }
 ```
 
-## Conclusion
+## 7. Conclusion
 
 This challenge highlighted the nuances of stack manipulation in Huff and the
 critical importance of careful flow control, especially for security-related
@@ -171,6 +159,6 @@ accepted to maintain the contract's security posture.
 Incorporating these best practices helps build more secure smart contracts
 and reduces the risk of common attack vectors.
 
-## References
+## 8. References
 
 * [https://github.com/paradigmxyz/paradigm-ctf-2023](https://github.com/paradigmxyz/paradigm-ctf-2023)

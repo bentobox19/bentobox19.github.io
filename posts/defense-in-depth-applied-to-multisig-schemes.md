@@ -1,27 +1,9 @@
 ---
-title: Defense in Depth Applied to Multisignature Schemes
+title: Defense in Depth Applied to Multisignature Schemes - Timelocks and Circuit Breakers
+date: 2025-02-03
 ---
 
-_Timelocks and Circuit Breakers_
-
-2025 Feb 03
-
-<!-- MarkdownTOC levels="1,2,3" autolink="true" -->
-
-- [Introduction](#introduction)
-- [Implementing Defense in Depth with Timelocks and Circuit Breakers](#implementing-defense-in-depth-with-timelocks-and-circuit-breakers)
-  - [Timelocks: Enforcing Delayed Execution for Risk Assessment](#timelocks-enforcing-delayed-execution-for-risk-assessment)
-  - [Circuit Breakers: Stopping Suspicious Transactions Before Execution](#circuit-breakers-stopping-suspicious-transactions-before-execution)
-- [Conclusions](#conclusions)
-  - [Summary of Defense-in-Depth Approach](#summary-of-defense-in-depth-approach)
-  - [Additional measures](#additional-measures)
-  - [Trade-offs & Challenges](#trade-offs--challenges)
-  - [Technical Alternatives](#technical-alternatives)
-- [References](#references)
-
-<!-- /MarkdownTOC -->
-
-## Introduction
+## 1. Introduction
 
 In DeFi, multisig wallets are central to governance and fund management, ensuring that key transactions (like smart contract upgrades and treasury management) require multiple signers. While this design minimizes single points of failure and reinforces decentralization, it faces challenges such as key takeover attacks, impersonation via social engineering, and even physical coercion.
 
@@ -35,7 +17,7 @@ To counter these threats, we propose a defense-in-depth strategy that integrates
   <img width="600" src="/docs/assets/img/did-multisig-02.png">
 </p>
 
-## Implementing Defense in Depth with Timelocks and Circuit Breakers
+## 2. Implementing Defense in Depth with Timelocks and Circuit Breakers
 
 ### Timelocks: Enforcing Delayed Execution for Risk Assessment
 
@@ -96,7 +78,7 @@ Circuit breakers act as emergency stops for transactions flagged as risky, fraud
   * CP-2 (Contingency Planning): Supports establishing procedures to suspend operations under emergency conditions.
 * NIST SP 800-37 (Risk Management Framework – Select Step, Section 3.3): Encourages tailoring controls based on an organization’s unique risk profile, ensuring that measures like circuit breakers are proportionate to the risk of each transaction.
 
-## Conclusions
+## 3. Conclusions
 
 Threat actors are becoming more sophisticated, using advanced techniques to compromise governance—from automated impersonation to coercion. A defense-in-depth approach is essential.
 
@@ -131,7 +113,7 @@ Access control becomes increasingly stringent as risk rises. Higher-risk actions
 
 A two-phase signature process—initial multisig collection followed by additional signatures from a separate group—integrates governance monitoring directly into the approval process.
 
-## References
+## 4. References
 
 * [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) – Security & Privacy Controls for Information Systems
 * [NIST SP 800-37 Rev. 2](https://csrc.nist.gov/pubs/sp/800/37/r2/final) – Risk Management Framework

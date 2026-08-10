@@ -1,8 +1,7 @@
 ---
 title: Elastic Security AVS - Early View of Components and Economics
+date: 2024-08-02
 ---
-
-2024 Aug 02
 
 ## 1. Introduction
 

@@ -1,10 +1,9 @@
 ---
 title: Arguments in favor of a standard for incident reporting and DeFi attack taxonomy
+date: 2024-04-19
 ---
 
-2024 Apr 19
-
-## Overview
+## 1. Overview
 
 To systematically address and mitigate risks, it is recommended to incorporate a standard for incident reporting and develop a comprehensive taxonomy of attacks specific to DeFi systems.
 
@@ -12,7 +11,7 @@ By leveraging the Structured Threat Information Expression [STIX], a recognized 
 
 Drawing inspiration from scholarly work such as [Zhou et al. 2022] it is possible to lay the foundations for an ever-evolving system that classifies incidents into layers, causes, and types. This taxonomy should encompass the wide variety of attack vectors in DeFi such as Sybil attacks, 51% attacks, reentrancy, frontrunning, sandwiching, on-chain oracle manipulation, and wallet phishing. Each category should clearly define the vulnerabilities, potential impacts, and typical mitigation strategies.
 
-## SoK: Decentralized Finance (DeFi) Attacks
+## 2. SoK: Decentralized Finance (DeFi) Attacks
 
 The framework developed by [Zhou et al. 2022] can be regarded as a superset of the relevant work done in DeFi security taxonomies. Therefore, it will be utilized in this review to structure the organization of attack vectors and provide non-exhaustive examples within the DeFi ecosystem.
 
@@ -36,7 +35,7 @@ Each of these layers categorize incident causes and distinguish types:
   <img width="600" src="https://gist.github.com/assets/85324266/04f1e0a3-a2de-40ed-9011-17a83253e493">
 </p>
 
-## Extending STIX for incident reporting and DeFi Attack Taxonomy
+## 3. Extending STIX for incident reporting and DeFi Attack Taxonomy
 
 [Clancy et al. 2022] offered policy recommendations for Web3 security. They suggested extending the STIX taxonomy in three ways: defining wallet identifiers and Ethereum node records as observables, including blockchain transactional records as indicators, and incorporating financial misgivings in defining incidents.
 
@@ -51,7 +50,7 @@ The following extensions to the standard are proposed:
   * `x_defi_taxonomy_incident_cause`.
   * `x_defi_taxonomy_incident_type`.
 
-## STIX Implementation Examples
+## 4. STIX Implementation Examples
 
 <p style="text-align: center;">
   <img width="600" alt="Screenshot 2024-04-18 at 23 39 09" src="https://gist.github.com/assets/85324266/1dfcebba-c926-47bf-a7a6-681c32ec9c67">
@@ -61,7 +60,7 @@ The following extensions to the standard are proposed:
   <img width="600" alt="Screenshot 2024-04-18 at 23 39 54" src="https://gist.github.com/assets/85324266/b37886ca-73e8-4dc4-8c0a-1bfa3d7a3218">
 </p>
 
-## References
+## 5. References
 
 * [Clancy et al. 2022]
   * Clancy, C., Norman, M., & Wijesinghe, S. (2022). Securing Web3 and Winning the Battle for the Future of the Internet. MITRE. [https://www.mitre.org/news-insights/publication/securing-web3-and-winning-battle-future-internet](https://www.mitre.org/news-insights/publication/securing-web3-and-winning-battle-future-internet)

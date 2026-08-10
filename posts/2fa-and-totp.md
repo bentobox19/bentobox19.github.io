@@ -1,8 +1,9 @@
 ---
 title: Let's Talk About 2FA and TOTP
+date: 2025-01-23
 ---
 
-## Overview
+## 1. Overview
 
 2FA stands for **"Two-Factor Authentication"**, meaning you use two methods to verify your identity for a service. For example, a password is **"something you know,"** while your cellphone is **"something you have."** There is also **"something you are"** (biometrics).
 
@@ -10,7 +11,7 @@ Some argue that **"somewhere you are"** (location-based authentication) is anoth
 
 TOTP stands for **"Time-Based One-Time Password Algorithm"**, derived from HOTP. Both are defined in **[RFC 6238](https://datatracker.ietf.org/doc/html/rfc6238)** and **[RFC 4226](https://datatracker.ietf.org/doc/html/rfc4226)**.
 
-## How Does It Work?
+## 2. How Does It Work?
 
 The service generates a **secret** and shares it with you, usually as a QR code, creating a **shared secret** between you and the service. To authenticate, you must prove that you _have_ this secret.
 
@@ -34,7 +35,7 @@ To summarize:
 
 ... Profit! 🚀
 
-## Breaking It Down
+## 3. Breaking It Down
 
 TOTP as an authentication factor (**"something you have"**—the shared secret on your device) combined with your password (**"something you know"**) significantly enhances security. So far, so good, right?
 
@@ -52,7 +53,7 @@ In other words, your service stores this secret in a database, just like it does
   <img width="600" src="/docs/assets/img/2fa-and-top-02.png">
 </p>
 
-### Security Considerations
+## 4. Security Considerations
 
 The secret is typically transmitted to the user in plaintext or as a QR code—both of which ultimately expose the secret in plaintext. In most cases, protecting the data in transit with **HTTPS** is sufficient.
 
@@ -62,6 +63,6 @@ Once the secret is stored on your device, it should be handled like any sensitiv
 - **Keeping a secure backup** to prevent loss.
 - **Avoiding uncontrolled cloud copies** to minimize exposure risks.
 
-## Wrapping It Up
+## 5. Wrapping It Up
 
 Using multiple authentication factors is always better than relying on just one! However, it's essential to be aware of alternative authentication methods. Explore ways to authenticate that don't rely on centralized sources. 😉

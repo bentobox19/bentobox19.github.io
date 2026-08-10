@@ -1,8 +1,9 @@
 ---
 title: Damn Vulnerable DeFi #10 - Free Rider - Solution
+date: 2024-09-14
 ---
 
-## Summary
+## 1. Summary
 
 This article outlines a solution for Damn Vulnerable DeFi Challenge #10: *Free Rider*.
 Two key vulnerabilities were exploited:
@@ -10,11 +11,11 @@ Two key vulnerabilities were exploited:
   * **Incorrect payment distribution**, where funds were mistakenly sent to the buyer instead of the seller.
 The challenge also highlights the existence and potential use of Uniswap V2’s flash loan feature.
 
-## Link to the challenge
+## 2. Link to the challenge
 
 [https://www.damnvulnerabledefi.xyz/challenges/free-rider/](https://www.damnvulnerabledefi.xyz/challenges/free-rider/)
 
-## The Challenge
+## 3. The Challenge
 
 ```
 A new marketplace of Damn Valuable NFTs has been released! There’s been an initial mint of 6 NFTs, which are available for sale in the marketplace. Each one at 15 ETH.
@@ -28,7 +29,7 @@ You’ve agreed to help. Although, you only have 0.1 ETH in balance. The devs ju
 If only you could get free ETH, at least for an instant.
 ```
 
-## Vulnerability Survey
+## 4. Vulnerability Survey
 
 ### Improper `msg.value` Reuse in Loops
 
@@ -90,7 +91,7 @@ payable(_token.ownerOf(tokenId)).sendValue(priceToPay);
 
 In this case, the NFT is transferred to the buyer first, making them the owner of the token. The next line then sends the payment to the owner, which is now the buyer, allowing them to receive the funds instead of the seller.
 
-## Solution
+## 5. Solution
 
 ### Issue a Flash Loan
 
