@@ -6,7 +6,7 @@ permalink: /
 
 # Herman Junge
 
-* [Reflections on Cybersecurity Policy](https://github.com/bentobox19/reflections-on-cyber)
+* [Reflections on Cybersecurity Policy](https://bentobox19.github.io/posts/bentobox19/reflections-on-cyber)
 * [Low-level interaction with Safe Wallets (in Sepolia) using Foundry](https://github.com/bentobox19/poc-foundry-safe-sepolia)
 * [Paradigm CTF 2023 - Black Sheep - Solution](https://bentobox19.github.io/posts/paradigm-ctf-2023-black-sheep)
 * [Defense in Depth Applied to Multisignature Schemes - Timelocks and Circuit Breakers](https://bentobox19.github.io/posts/defense-in-depth-applied-to-multisig-schemes)
