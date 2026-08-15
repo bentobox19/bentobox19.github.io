@@ -23,7 +23,7 @@ That speed came at a cost. Trust is unavoidable — no one inspects every layer 
 
 Black markets pay for zero-day vulnerabilities. Nation-state actors insert themselves into the supply chain. AI now finds bugs at a scale no human team can match. Microsoft's July 2026 Patch Tuesday shipped 570 fixes, three of them zero-days.[^1] Programs like HackerOne and Immunefi look sisyphean against that scale. AI didn't break the system. It exposed how fragile the foundations already were.
 
-My industry inherits the whole stack. Web3 adds its own dependencies on top — smart contracts, oracles, bridges — layers traditional finance doesn't carry. The deeper you go, the more cracks you see. My move is to keep pushing zero trust further: **assume the attacker is already inside our machines, and design so that assumption is survivable.** Concretely, that means deliberate friction around the private key — hardware wallets, MPC schemes, quorum policies — so that no compromised endpoint or trusted insider can move funds alone.
+My industry inherits the whole stack. Web3 adds its own dependencies on top — smart contracts, oracles, bridges — layers traditional finance doesn't carry. The deeper you go, the more cracks you see. My move is to keep pushing zero trust further: *assume the attacker is already inside our machines, and design so that assumption is survivable.* Concretely, that means deliberate friction around the private key — hardware wallets, MPC schemes, quorum policies — so that no compromised endpoint or trusted insider can move funds alone.
 
 ## 3. International Cyber Conflict
 
