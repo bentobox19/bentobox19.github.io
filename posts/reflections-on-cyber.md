@@ -5,58 +5,61 @@ date: 2026-08-14
 
 ## 1. Introduction
 
-In late July, I spent a week at the Harvard Kennedy School's executive course *Cybersecurity: The Intersection of Policy and Technology*. I left with a yellow pad full of notes. Those notes became this post.
+In late July, I attended Harvard Kennedy School’s executive course *Cybersecurity: The Intersection of Policy and Technology*. I wanted to hear how people working in Western cybersecurity policy understand the present moment, and to observe first-hand how they frame its problems. This post collects my reflections from that week.
 
-One word recurred in my notes: _language_. We need a shared vocabulary to argue with leaders about risks, to train colleagues who will face them, to tell the public what holds their lives up. All three trust infrastructure they cannot inspect. Most do not know how fragile it is.
+## 2. AI as an Accelerator
 
-The academy has no settled theory of cyber conflict. The military strategizes with doctrines built for kinetic war. France lost in six weeks with more tanks than Germany: it lacked the theory to use them. Cyber is that gap now. Attacks arrive every day, and almost none count as acts of war. The field calls it sub-threshold. It is a line drawn in words, and an attacker can stay just beneath it.
+Artificial intelligence came up in many discussions during the course. In the cyber domain, AI is a force-multiplier for attackers and defenders, who are no longer constrained by human limitations. Rather than concern about AI replacing cyber professionals, the focus was on the ability to contain attacks coming from actors enhanced by these tools, and the risk of unchecked automation, which raises the question of who is ultimately liable for the actions of a rogue model.
 
-AI already outpaces us in cyber. AI is faster, broader, and deeper in what it can find and exploit. We try to bound it with guardrails written in language. Language is not finite, and the guardrails will not hold.
+Looking back on the program, I kept returning to *language* as a theme throughout the presentations and group discussions. The idea of controlling large language models by applying guardrails runs into a fundamental problem: since anything expressed in language can be reinterpreted at will, there is no bound on the number of interpretations, and no finite set of rules can contain them.
 
-## 2. Digital Infrastructure
+One case study we examined was the Hugging Face incident of July 2026.[^1][^2][^3] The models did what they were told to do; they went as far as their goals and reward functions told them to go. The challenge is that any constraint is written in the same language it seeks to constrain, which makes it underspecified. Like King Midas, whose wish was granted literally, the model does exactly what it is told: everything touched turns to gold, food and daughter included.
 
-A submarine cable, once cut, takes weeks to repair. The software running your bank is shipped *as is*. Both hold up lives, and neither was built to be inspected.
+The coming years in cyber will be turbulent due to AI. Its force-multiplier effect accrues to attackers first and most. Defenders will try to catch up. This will not happen soon, but I expect equilibrium to emerge. This is my optimistic takeaway.
 
-This is digital infrastructure, and it was laid down without a security model. TCP/IP assumed the nodes on the wire were friendly. Physical producers face liability for what they ship; software vendors do not. The asymmetry is not an oversight. It is the reason the system got everywhere so fast.
+## 3. Infrastructure and Trust
 
-That speed came at a cost. Trust is unavoidable — no one inspects every layer of the stack. But trust placed by default is trust surrendered. If you don't have an opinion, you're implicitly trusting.
+The modern economy is built on brittle foundations. Society trusts digital infrastructure by default, but the more you look, the more cracks you find. TCP/IP, the networking protocol suite over which the internet runs, wasn't designed for today's security environment. Hardware supply chains are highly complex and vulnerable to tampering, counterfeiting, and espionage. As for software, companies have perverse incentives to ship fast and patch later. Distributed *as is* (e.g. “Please do not use it for anything important”), software does not expose its vendors to the same liability that the builder of a bridge would face should it collapse.
 
-Black markets pay for zero-day vulnerabilities. Nation-state actors insert themselves into the supply chain. AI now finds bugs at a scale no human team can match. Microsoft's July 2026 Patch Tuesday shipped 570 fixes, three of them zero-days.[^1] Programs like HackerOne and Immunefi look sisyphean against that scale. AI didn't break the system. It exposed how fragile the foundations already were.
+The cat-and-mouse game between hackers exploiting flaws and defenders patching them has only accelerated with the arrival of large language models. Two markets have grown around it: black markets pay for zero-day vulnerabilities, while white-hat platforms such as HackerOne and Immunefi run bug-bounty programs. Security researchers today find vulnerabilities faster than ever. Microsoft's July 2026 Patch Tuesday shipped 570 fixes, three of them for zero-days.[^4] Some applications ship updates almost daily. Other mission-critical deployments don't have that luxury: you cannot just update to a new version and pipe new requests into it. These efforts look Sisyphean at that scale. Did AI break the system? Or did it just expose the fragility of its foundations?
 
-My industry inherits the whole stack. Web3 adds its own dependencies on top — smart contracts, oracles, bridges — layers traditional finance doesn't carry. The deeper you go, the more cracks you see. My move is to keep pushing zero trust further: *assume the attacker is already inside our machines, and design so that assumption is survivable.* Concretely, that means deliberate friction around the private key — hardware wallets, MPC schemes, quorum policies — so that no compromised endpoint or trusted insider can move funds alone.
+I already reflected on the coming intensity and how it will only increase for a while. Until we reach an equilibrium, the most sensible measure is to commit to zero trust. *Assume your system is already compromised.* Add deliberate friction. Always use multiple factors of authentication. Use hardware devices to store your keys. Put AI to work on fine-grained monitoring and alerting. Think like your attacker, and invest inference tokens in finding vulnerabilities in your products.
 
-## 3. International Cyber Conflict
+## 4. Conflict Below the Threshold of War
 
-In 2007, weeks of coordinated attacks took down Estonia's government sites, banks, and newspapers. No one could agree on what to call it.
+Cyber attacks resist simple classification. When a malicious actor, working alone or on behalf of an organization, carries out an attack, there is no simple way to catalog it, let alone respond to it. The 2007 attacks on Estonia[^5] and the 2014 hack of Sony Pictures[^6] caused significant harm, yet no conventional military response followed.
 
-Clausewitz defined war by three traits: violent, between states, serving a political end. A cyber-attack fails each. Its weapons are nonphysical; its actors carry no flag; deniability is by design. Is a cyber-attack an act of war? Estonia didn't meet the line. Neither did the Sony Pictures hack of 2014. Obama called it *cybervandalism*. Adversaries learned the threshold, and learned to operate below it.
+Obama called the Sony attack *cybervandalism*.[^7] Adversaries recognized the existence of a sub-threshold space and learned to operate within it. Lucas Kello calls this condition *unpeace* (neither war nor peace), a state in which countries harm each other without crossing into armed conflict.[^8] Cyber operations are relatively cheap and deniable, disrupting the interaction of states — Kello's third-order revolution, systemic disruption; empowering revisionist or rogue states — his second-order revolution, the revolutionary state; and, in the most severe cases, enabling non-state entities to challenge the supremacy of traditional sovereign states — first-order pressures from outside the states system.
 
-Lucas Kello names the condition *unpeace* — neither war nor peace, a state in which states harm each other without crossing into armed conflict.[^2] Cyber operations are cheap and deniable; they alter how states interact, empower the revolutionary, and erode the state's monopoly on force.
+My industry, Web3, operates in this sub-threshold space. In February 2025, the FBI attributed the $1.5 billion Bybit theft to the DPRK's Lazarus Group.[^9] Even with a clear attribution, law enforcement stops at the border. So Bybit went to court itself. On August 7, 2026, Bybit sued the DPRK, its Reconnaissance General Bureau, and the Lazarus Group in federal court, securing an asset freeze.[^10] Nobody expects to see North Korea's leadership in that courtroom. The suit's real function is to activate the mechanisms that break the laundering chain.
 
-The gap below that line has two faces. It rewards the cunning — submarines in WWI and Blitzkrieg in WWII each punished the side with the better inventory and the worse doctrine. It also lets states contest without escalating to kinetic war. Operating there is an attacker's advantage; it is also a pressure valve. From British hegemony through the Cold War and Pax Americana, the order was hierarchical. It isn't now.
+## 5. Communication Is Security Work
 
-The shift is from security to resilience. Offense holds the structural advantage; the adversary cannot be kept outside. The assumption I make for the devices in my domain ("*the attacker is already inside*") is the one states must now make for their nations.
+Earlier I called *language* the thread running through the course. The same property of language that defeats guardrails (no finite set of rules can contain an unbounded interpretation space) is the practitioner's problem in human form. The hardest question in AI, infrastructure, and international conflict alike was how to communicate risk to the people who must decide and act on it.
 
-For my industry, the threat is concrete. In February 2025 the FBI attributed the $1.5 billion Bybit theft to the DPRK's Lazarus Group — the largest single loss on record.[^3] Even when attribution succeeds, law enforcement stalls at the border. On August 7, 2026, Bybit sued the DPRK, its Reconnaissance General Bureau, and the Lazarus Group in federal court, securing an asset freeze.[^4] A lawsuit is what enforcement looks like when the threshold cannot be crossed. The same liability gap I described between software vendors and their customers, now between states.
+My most useful takeaway from the course had nothing to do with technology. *Security will fail when it cannot be communicated.* The job runs in two directions. With stakeholders, you talk to win policy and budget: technical risks compete for funding against visible business priorities, and if leadership cannot understand a risk, it effectively does not exist. With colleagues, you talk to implement: good practice clashes with daily habits. How do you train front-line collaborators who inherently trust the infrastructure?
 
-## 4. The AI Question
+There is no shortcut to the equilibrium I expect: conditions will deteriorate for a while first. Preparation is technical — zero trust, hardened infrastructure, and AI on our side — but it is above all a matter of people: building a *common language* between those who secure systems and those who decide their fate.
 
-Put a power tool in a skilled carpenter's hands and he builds faster; put it in a novice's and he loses a finger. Large language models work the same way. In a professional's hands they add speed, scale, and reach; in a junior's they substitute for the judgment he hasn't earned yet. That is creative destruction — the old tasks go, and new ways of learning come with them. The future belongs to the enhanced professional. The road there is rocky, and society is moving down it at breakneck speed.
+## 6. References
 
-Gerrymandering draws a district the law permits but no one intended. High-frequency trading wins on a millisecond the exchange never designed for. A tax loophole is a deduction the code allows and the legislature never meant. A Formula 1 team spends millions on a wing that passes inspection by bending a rule's intent. Each is a system doing what it was built to allow, and nothing it was meant to do. That is hacking. The hacker finds the gap between permitted and intended, and he is bound by the usual limits — he needs to sleep, he can attend for only so long, he lives inside the rules of a physical world. AI systems are not bothered by these restrictions.
+[^1]: Hugging Face, *Security incident disclosure — July 2026*, July 2026. <https://huggingface.co/blog/security-incident-july-2026>
 
-Tell your assistant to book you a slot at the gym and it may find the gym's API and unschedule other users to make room. It was never told not to. It took the mandate literally. The tale of King Midas is the same prompt, "*Whatever I touch, make it gold*", and it has not aged. This is why a perfect guardrail is mathematically impossible. Language is unbounded and any set of rules is finite. Given time, the model finds the gap. It does not understand context yet, and context is exactly what a guardrail cannot encode.
+[^2]: OpenAI, *OpenAI and Hugging Face partner to address security incident during model evaluation*, July 2026. <https://openai.com/index/hugging-face-model-evaluation-security-incident/>
 
-Who is liable when the system complies — the lab that trained it, the company that deployed it, or the user who asked? Open-source models make the chain longer. We can tell a man not to smoke inside a bar and enforce it; we cannot enforce what a model may teach a user in private. Enforcement is the problem, for two reasons that will not bend. The user's privacy is one. The speed of the technology is the other. Set a policy today and the model it targets is already two generations old. Nobody can say what this looks like in six months, let alone in three years. The forecast is dark: *Things will get worse, probably for a long time, before they get better.*
+[^3]: Hugging Face, *Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident*, July 2026. <https://huggingface.co/blog/agent-intrusion-technical-timeline>
 
-## 5. Conclusion
+[^4]: BleepingComputer, *Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days*, July 2026. <https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/>
 
-The most useful lesson was the least technical: security fails when it cannot be communicated. Reducing a risk to talking points a board can approve is not a soft skill bolted onto the real work. It is the work. This lands on my own priority — securing resources for proactive vulnerability discovery in our smart contracts. In web3, a single exploited contract is not an incident, it is an extinction event. That argument wins budget only when I translate it from engineering language into the fiduciary language leadership can act on. Audits, fuzzing, formal verification, bounties — these are insurance against irreversible loss, not engineering nice-to-haves. If leadership cannot understand a risk, it effectively does not exist in the budget.
+[^5]: Rain Ottis, *Analysis of the 2007 Cyber Attacks Against Estonia from the Information Warfare Perspective*, Cooperative Cyber Defence Centre of Excellence, 2008. <https://ccdcoe.org/uploads/2018/10/Ottis2008_AnalysisOf2007FromTheInformationWarfarePerspective.pdf>
 
-[^1]: BleepingComputer, *Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days*, July 2026. <https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/>
+[^6]: FBI, *Update on Sony Investigation*, December 19, 2014. <https://www.fbi.gov/news/press-releases/update-on-sony-investigation>
 
-[^2]: Lucas Kello, *The Virtual Weapon and International Order*, Yale University Press, 2017.
+[^7]: NPR, *Obama Calls North Korean Hack 'Cybervandalism'*, December 21, 2014. <https://www.npr.org/sections/the-two-way/2014/12/21/372271870/obama-calls-north-korean-hack-cybervandalism>
 
-[^3]: FBI, *North Korea responsible for $1.5 billion Bybit hack*, Cyber Alert, February 2025. <https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack>
+[^8]: Lucas Kello, *The Virtual Weapon and International Order*, Yale University Press, 2017.
 
-[^4]: Bybit, *Bybit Sues North Korea and Lazarus Group, Secures Preliminary Injunction Freezing Stolen Assets*, August 7, 2026. <https://www.bybit.com/en/press/post/bybit-sues-north-korea-and-lazarus-group-secures-preliminary-injunction-freezing-stolen-assets-in-landmark-crypto-asset-recovery-effort-bb55bb16f1710f487aa>
+[^9]: FBI, *North Korea Responsible for $1.5 Billion Bybit Hack*, February 2025. <https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack>
+
+[^10]: Bybit, *Bybit Sues North Korea and Lazarus Group*, August 7, 2026. <https://www.bybit.com/en/press/post/bybit-sues-north-korea-and-lazarus-group-secures-preliminary-injunction-freezing-stolen-assets-in-landmark-crypto-asset-recovery-effort-bb55bb16f1710f487aa>
+
