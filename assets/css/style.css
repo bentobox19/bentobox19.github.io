@@ -56,6 +56,14 @@ h1.post-title{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spac
 .post-body th,.post-body td{border:1px solid var(--rule);padding:8px 12px;text-align:left}
 .post-body th{background:var(--paper-2);font-family:"Space Grotesk",sans-serif}
 
+/* ---------- Footnotes (kramdown) ---------- */
+.post-body .footnotes{margin-top:40px;padding-top:12px;border-top:1px solid var(--rule)}
+.post-body .footnotes h1,.post-body .footnotes h2{display:none}
+.post-body .footnotes ol{color:var(--ink-soft);padding-left:20px;margin:0}
+.post-body .footnotes li{margin:8px 0;overflow-wrap:anywhere;word-break:break-word}
+.post-body .footnotes p{margin:0}
+.post-body .footnotes a{overflow-wrap:anywhere;word-break:break-word}
+
 /* inline code */
 .post-body code{font-family:"JetBrains Mono",monospace;font-size:.86em;background:var(--paper-2);border:1px solid var(--rule);border-radius:4px;padding:1px 6px;color:var(--amber)}
 
