@@ -5,7 +5,11 @@ date: 2026-08-14
 
 ## 1. Introduction
 
-In late July, I attended Harvard Kennedy School’s executive course *Cybersecurity: The Intersection of Policy and Technology*. I wanted to hear how people working in Western cybersecurity policy understand the present moment, and to observe first-hand how they frame its problems. This post collects my reflections from that week.
+In late July, I attended Harvard Kennedy School's executive course *Cybersecurity: The Intersection of Policy and Technology*. I wanted to hear how people working in Western cybersecurity policy understand the present moment, and to observe first-hand how they frame its problems. This post collects my reflections from that week.
+
+<div style="text-align: center">
+  <img width="600" src="/docs/assets/img/reflections-on-cyber-group.png" alt="Group photo from the Cybersecurity executive course at Harvard Kennedy School">
+</div>
 
 ## 2. AI as an Accelerator
 
